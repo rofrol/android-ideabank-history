@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Idea Bank parser</string>
+    <string name="menu_settings">Settings</string>
+    <string name="reminder">Wpisz url</string>
+    <string name="gotext">Idź</string>
+
+</resources>

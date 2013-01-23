@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reminder" />
+    <Button
+        android:id="@+id/go"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentRight="true"
+        android:text="@string/gotext" />
+    <TextView
+   	    android:id="@+id/fname"
+   	    android:layout_below="@id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
